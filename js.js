@@ -59,6 +59,7 @@ for (word of test) {
     result = result.replace(/[\[\]&]+/g, '');
 
     results.push(unEscape(result))
+    results.sort();
 }
 
 for (word of results) {
